@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&family=Poppins&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body, html{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100vh;
+}
+
+code {
+  font-family: 'Poppins', sans-serif;
+}
+
+/*Header an Sidebar*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Poppins;
+}
+
+.header{
+    padding-left: 5%;
+    display: flex;
+    background: white;
+    width: 100%;
+  }
+  .header p{
+    color: rgb(77, 77, 77);
+    font-size: 16px;
+    padding-right: 20px;
+    padding-left: 6px;
+  }
+  .header button{
+    background: #c76ae2;
+    color: white;
+    border: 2px solid #c76ae2;
+    box-shadow: 0px 0px 4px #c76ae2;
+    padding: 5px 5px;
+    transition: all 0.5s ease-in-out;
+  }
+  .header button:hover{
+    background: #4098e5;
+    color: white;
+    border: 2px solid #4098e5;
+    box-shadow: 0px 0px 4px #4098e5;
+    padding: 5px 5px;
+    transition: all 0.5s ease-in-out;
+  }
+  .header .fa-user{
+    color: #c76ae2;
+  }
+  .header img{
+    padding-right: 70%;
+    height: 80px;
+  }
+  .header li{
+    display: flex;
+    align-items: center;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 18% 1fr; /* First column takes 20%, second column takes the remaining space */
+    grid-gap: 0px; /* Add gap between grid items */
+  }
+  
+  .sidebar{
+    background: white;
+    padding: 20px 0px;
+    box-shadow: 0px 1px 5px rgb(0, 0, 0, 0.4);
+    height: 100vh;
+  }
+  .sidebar li{
+    text-align: left;
+    list-style: none;
+    font-size: 14px;
+    color: rgb(77, 77, 77);
+    padding-bottom: 15px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  .sidebar li:hover{
+    color: #c76ae2;
+    transition: all 0.5s ease-in-out;
+  }
+
+@media only screen and (max-width: 600px){
+  body, html{
+    overflow-x: hidden;
+    overflow-y: inherit;
+  }
+}  
