@@ -4,7 +4,7 @@ header("Access-Control-Allow-Origin: http://localhost:3000");
 header('Access-Control-Allow-Methods: GET, POST, DELETE, PUT, OPTIONS');
 header("Access-Control-Allow-Headers: Content-Type, Authorization");
 
-$stmt = $db->prepare("SELECT idCliente, nombre, apellidos, carnet, telefono, nacimiento FROM cliente");
+$stmt = $db->prepare("SELECT idHabitacion, nombre, costo, capacidad FROM habitacion");
 $stmt->execute();
 
 $clientNames = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
