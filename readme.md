@@ -54,8 +54,11 @@ Con estos pasos, debería tener el Sistema de Gestión de Clínica Veterinaria f
 
 - **Registro de Clientes:** Mantenga un registro completo de todos los que visitan la clínica, incluidos sus datos y otra información relevante.
 
+- **Registro de Habitaciones:** Mantenga un registro completo de todas las habitaciones disponibles en la clínica, con sus datos relevantes.
+
 - **Interfaz Principal:** Permite visualizar la interfaz gráfica del sistema, en donde tendremos nuestro menú de navegación y otra información relevante.
 
 - **Cerrar Sesión:** Permite que el usuario que ha ingresado pueda salirse del sistema.
+
 
 
