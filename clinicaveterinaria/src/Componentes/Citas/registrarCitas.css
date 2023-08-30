@@ -1,0 +1,39 @@
+.FormField{
+}
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .custom-dropdown input {
+    width: 60%;
+    padding: 2px 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+  }
+  
+  .dropdown-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 9999;
+  }
+  
+  .dropdown-item {
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    z-index: 9999;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f0f0f0;
+  }
